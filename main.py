@@ -117,7 +117,7 @@ async def handle_codes(update: Update, context: ContextTypes.DEFAULT_TYPE):
     else:
         # Мягкий ответ на неизвестный «шифр»
         await update.message.reply_text(
-            "Не знаю такой команды. Доступно: 16:00, 121025, созвон, 1633, 02042004."
+            "Это не о чем мне не говорит."
         )
 
 
