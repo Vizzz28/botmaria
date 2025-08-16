@@ -78,7 +78,7 @@ async def handle_codes(update: Update, context: ContextTypes.DEFAULT_TYPE):
             update,
             PATH_IMG_1600,
             send_coroutine=lambda f, **kw: update.message.reply_photo(photo=f, **kw),
-            caption="16:00"
+            caption=None
         )
 
     # 2) 121025 -> кружочек-видео (video note). Если нужно обычное видео — смени на reply_video
@@ -96,7 +96,7 @@ async def handle_codes(update: Update, context: ContextTypes.DEFAULT_TYPE):
             update,
             PATH_CALL_VIDEO,
             send_coroutine=lambda f, **kw: update.message.reply_video(video=f, **kw),
-            caption="Созвон"
+            caption=None
         )
 
     # 4) 1633 -> текст
@@ -111,7 +111,7 @@ async def handle_codes(update: Update, context: ContextTypes.DEFAULT_TYPE):
             update,
             PATH_QR_02042004,
             send_coroutine=lambda f, **kw: update.message.reply_photo(photo=f, **kw),
-            caption="QR к первому посту"
+            caption=None
         )
 
     else:
