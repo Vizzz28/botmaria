@@ -102,8 +102,9 @@ async def handle_codes(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # 4) 1633 -> текст
     elif text == "1633":
         await update.message.reply_text(
-            "В день убийства Алена вызвала полицию по адресу улица Строителей 7к1"
-        )
+            "В день убийства Алена вызвала полицию по адресу ||улица Строителей 7к1||",
+        parse_mode="MarkdownV2"
+    )
 
     # 5) 02042004 -> QR-картинка
     elif text == "02042004":
