@@ -10,7 +10,7 @@ TOKEN = os.getenv("BOT_TOKEN")
 ASSETS = "assets"
 PATH_IMG_1600        = os.path.join(ASSETS, "img_1600.jpg")         # скрин переписки для 16:00
 PATH_CIRCLE_121025   = os.path.join(ASSETS, "circle_121025.mp4")    # кружочек-видео (video note)
-PATH_CALL_VIDEO      = os.path.join(ASSETS, "call_video.mp4")       # допрос Львов (видео)
+PATH_CALL_VIDEO      = os.path.join(ASSETS, "call_video(1).mp4")       # допрос Львов (видео)
 PATH_QR_02042004     = os.path.join(ASSETS, "qr_02042004.jpg")      # QR на первый пост
 PATH_GREETING_VIDEO  = os.path.join(ASSETS, "greeting_video.mp4")   # приветственное видео
 
