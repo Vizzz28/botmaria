@@ -15,7 +15,7 @@ PATH_QR_02042004     = os.path.join(ASSETS, "qr_02042004.jpg")      # QR на п
 PATH_GREETING_VIDEO  = os.path.join(ASSETS, "greeting_video.mp4")   # приветственное видео
 
 GREETING_TEXT = "Умная система Сыщик Щуки (модель СЩ001) готова помочь в расследовании"
-CALL_CAPTION  = "Секретный материал. Рассказ свидетеля о видеозвонки с пострадавшей №2,"
+CALL_CAPTION  = "Секретный материал. Рассказ свидетеля о видеозвонке с пострадавшей №2 в день убийства в 19:00"
 
 # === Утилиты ===
 def _is_nonempty_file(path: str) -> bool:
